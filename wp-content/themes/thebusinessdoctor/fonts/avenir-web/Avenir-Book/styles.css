@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('Avenir-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src:  url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'), url('Avenir-Book.ttf')  format('truetype'), url('Avenir-Book.svg#Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

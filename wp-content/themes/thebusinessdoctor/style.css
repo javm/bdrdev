@@ -1,0 +1,280 @@
+/*
+Theme Name: The Bussiness Doctor
+Author: Molanco Team
+Author URI: https://molanco.com/
+Description: Theme by The Bussiness Doctor web
+Text Domain: thebussinessdoctor
+Tags: blue, thebussinessdoctor.
+version: 1.0
+*/
+
+/*Titles  Header*/
+.header-titles{
+    background-color: #0E60AA;
+    height: auto;
+    color: #FBFFFF;
+    position: static;
+
+}
+b, strong {
+    font-family: "Avenir", Tahoma, Geneva, sans-serif;
+}
+/*Background in navbar*/
+.nav-background{
+    background:url(/wp-content/uploads/2018/09/nav-background.png)repeat-x;
+    background-color: #0E60AA;
+}
+.bolder, .bold {
+    font-weight: bold;
+}
+/* Color and font in Item Menu*/
+.navbar-inverse .navbar-nav .nav-link{
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav .nav-link:hover {
+    color: #fff !important;
+	opacity: 1 !important;
+}
+.navbar .navbar-brand:hover {
+    color: #1E1F25;
+}
+.navbar-inverse .navbar-nav .active > .nav-link{
+    color: black;
+    font-family:"AvenirNext-Bold", Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+}
+/* Info contact home*/
+.info-contact-home{
+    color: rgba(255,255,255,.9);
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+}
+/*Nav var Info*/
+.nav-var-info{
+    position: relative;
+    top: 30px;
+    z-index: 9;
+    padding-right: 25px;
+}
+
+.nav-var-info .fa, .header-titles .fa{
+    color:black;
+}
+.header-titles {
+    margin-top: -2px !important;
+}
+.logo-relative{
+    position: relative;
+    z-index: 99;
+    left: -35px;
+    padding-left: 35px;
+    border-bottom: 9px solid black;
+}
+/* Description header*/
+.display-4{
+    font-size: 2.4em;
+}
+.black-description{
+    color:black;font-weight:400;font-size: 1.8em;
+}
+/*Main Content*/
+.bold-text-content{
+    color: #0E60AA;
+    font-weight: bold;
+}
+/*Footer*/
+.footer-background{
+    height: auto;
+    background: url("/wp-content/uploads/2018/09/footer.png")repeat-x;
+    padding-bottom: 40px;
+}
+.line-black-footer-contain{
+    height: 54%;
+}
+.bold-text-upper{
+    color: #0E60AA !important;
+    font-weight: bold;
+}
+.line-black-footer, .line-black-contet{
+    border-top: 10px solid black;
+}
+/*Line in content*/
+.line-black-contet{
+    position: relative;
+    left: -50px;
+}
+/*small text*/
+.text-small-info{
+    font-size: .98rem;
+}
+/* Size font content*/
+.text-content-decorator{
+    font-size: 1.2rem;
+}
+.padding_by_footer{
+    padding-bottom: 50px;
+}
+
+/* strong blue*/
+.strong_staff p strong{
+    color: #0E60AA;
+}
+.text-network, .text-network strong a{
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    color: #0E60AA;
+}
+.icon-blue{
+    color: #0E60AA;
+}
+.font-16, .staff-font p {
+    font-size: 16px;
+    font-family:"Avenir", Tahoma, Geneva, sans-serif;
+}
+.font-w700 {
+    font-weight: 700;
+}
+/*Blue*/
+.blue {
+    color: #015eac;
+}
+.mt-15 {
+    margin-top: 45px;
+}
+.footer-copy {
+    margin-top: 60px;
+    font-size: 14px;
+}
+/*Sub Menu*/
+
+@media(max-width:768px){
+    .desktop-region-info{
+        display: none;
+    }
+    .logo-relative{
+        border-bottom: 0px;
+    }
+    .sub-menu{
+        padding-left: 0px;
+    }
+}
+
+@media(min-width:768px){
+    .sub-menu{
+        background: #000;
+        position: absolute;
+        display: none;
+        padding-left: 0px;
+
+    }
+    .sub-menu li :hover{
+        background: #666;
+        padding-left: 10px;
+
+    }
+
+    li.menu-item-has-children:hover .sub-menu{
+        display: block;
+    }
+
+    .sub-menu li.current-menu-item  {
+        background: transparent;
+    }
+    .sub-menu li a{
+        padding-left: 20px !important;
+    }
+
+    .sub-menu{
+        padding-left: 0px;
+    }
+}
+
+.sub-menu{
+
+    min-width: 250px;
+}
+
+.sub-menu li{
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+
+.sub-menu li a {
+    color:white;
+
+
+}
+
+.sub-menu li a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.current_page_parent, .navbar-nav .current-menu-item .nav-link{
+    color: #fff !important;
+
+}
+
+.a-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+h1.display-4 {
+    font-size:40px;
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    line-height: 55px;
+    font-weight: 100;
+}
+.request {
+    text-transform: uppercase;
+    line-height: 32px;
+    padding-bottom: 73px;
+    font-weight: 600;
+}
+.request a{
+    font-size: 28px;
+    color: #231F20;
+    font-family:Avenir;
+    font-weight: bold;
+}
+.request a:hover{
+    color: #2D2D2D;
+    text-decoration: none;
+}
+.blue-bg {
+    background-color: #0E60AA;
+    height: auto;
+    color: #FBFFFF;
+}
+p.lead-bd {
+    font-size:21px;
+    line-height: 29px;
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+}
+a.blue-text {
+    color: #0D60A9;
+    font-weight: 700;
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    line-height: 21px;
+}
+p, p.text-content-decorator {
+    font-family:"Avenir-Book", Tahoma, Geneva, sans-serif;
+    font-size: 21px;
+}
+@media only screen and (max-width: 1062px) {
+    .navbar-inverse .navbar-nav .nav-link {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .xs-mt {
+    margin-top: 30px;
+    }
+}
+
