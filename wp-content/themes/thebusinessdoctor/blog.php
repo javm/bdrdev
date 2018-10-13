@@ -39,6 +39,7 @@ get_header();
       </div>
 
       <div class="col-md-4 col-sm-4 col-xs-12 text-justify">
+
           <h3 class="font-16">Recent Posts</h3>
             <?php
               echo get_recent_posts_by_category('blog');
